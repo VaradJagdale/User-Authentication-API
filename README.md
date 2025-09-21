@@ -52,7 +52,7 @@ Start the server:
 npm run dev
 
 ## 📌 API Endpoints
-# 1. Register User
+## 1. Register User
 
 POST /api/auth/register
 {
@@ -61,7 +61,7 @@ POST /api/auth/register
   "password": "password123"
 }
 
-# 2. Login User
+## 2. Login User
 
 POST /api/auth/login
 {
@@ -69,7 +69,7 @@ POST /api/auth/login
   "password": "password123"
 }
 
-# 3. Forgot Password
+## 3. Forgot Password
 
 POST /api/auth/forgot-password
 {
