@@ -41,15 +41,20 @@ user-auth-api/
    cd User-Authentication-API
    
 Install dependencies:
+
 npm install
 
 Create a .env file in the project root:
+
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
 Start the server:
+
 npm run dev
+
+---
 
 ## 📌 API Endpoints
 ## 1. Register User
