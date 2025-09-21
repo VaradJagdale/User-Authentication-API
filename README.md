@@ -35,7 +35,7 @@ user-auth-api/
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
+# 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/User-Authentication-API.git
    cd User-Authentication-API
@@ -51,8 +51,8 @@ JWT_SECRET=your_jwt_secret
 Start the server:
 npm run dev
 
-📌 API Endpoints
-1. Register User
+## 📌 API Endpoints
+# 1. Register User
 
 POST /api/auth/register
 {
@@ -61,7 +61,7 @@ POST /api/auth/register
   "password": "password123"
 }
 
-2. Login User
+# 2. Login User
 
 POST /api/auth/login
 {
@@ -69,7 +69,7 @@ POST /api/auth/login
   "password": "password123"
 }
 
-3. Forgot Password
+# 3. Forgot Password
 
 POST /api/auth/forgot-password
 {
@@ -77,7 +77,9 @@ POST /api/auth/forgot-password
 }
 ➡️ A reset link with token will be logged in the console (simulated email).
 
-🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 Node.js + Express.js
 
@@ -87,7 +89,9 @@ JWT (JSON Web Tokens) for authentication
 
 dotenv for environment variables
 
-📌 Notes
+---
+
+## 📌 Notes
 
 .env file is ignored for security.
 
